@@ -1,7 +1,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Cairo, sans-serif;
+    /* font-weight: 100; */
 }
 
 header{
@@ -47,6 +48,7 @@ header{
 #banner {
     grid-column: 3/6;
     grid-row: 3;
+    background-image:url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp) ;
 }
 
 #produto01 {
@@ -88,4 +90,41 @@ header{
     font-weight: 100;
 }
 
+#envelope{
+    width: 15px;
+    
+}
 
+#cabeçota{
+    padding: 0% 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.vl {
+    border-left: 1px solid darkgray;
+    height: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  #cabeçota div {
+    font-size: 15px;
+    font-weight: 50;
+  }
+
+#espaco1{
+    padding-right: 375px;
+}
+
+.icones1{
+    width: 30px;
+    padding-left: 20px;
+}
+
+#america{
+    width: 35px;
+    padding-right:10px;
+}
