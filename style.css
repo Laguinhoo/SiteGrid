@@ -111,12 +111,18 @@ header{
   }
 
   #cabeçota div {
-    font-size: 15px;
-    font-weight: 50;
+    font-size: 13px;
+    font-weight: 100;
   }
+
 
 #espaco1{
     padding-right: 375px;
+    font-size: 13px;
+}
+
+.espaço2{
+    font-size: 13px;
 }
 
 .icones1{
@@ -125,6 +131,35 @@ header{
 }
 
 #america{
-    width: 35px;
+    width: 30px;
     padding-right:10px;
+}
+
+#titulo{
+     padding-top: 10%;
+     padding-left: 7%;
+}
+
+#fruitverde{
+    color: rgb(70, 138, 25);
+}
+
+#lead{
+    font-size:40px;
+}
+
+#pickup{
+    color: gray;
+}
+
+#verde{
+    background-color: rgb(79, 151, 57);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
 }
