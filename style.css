@@ -7,7 +7,7 @@
 
 header{
     height: 40px;
-    background-color: lightgray;
+    background-color: rgb(226, 226, 226);
 }
 
 #main{
@@ -54,18 +54,26 @@ header{
 #produto01 {
     grid-row: 4;
     grid-column: 2;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-5.jpg);
+    justify-content: center;
 }
 #produto02 {
     grid-row: 4;
     grid-column: 3;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg);
+    justify-content: center;
 }
 #produto03 {
     grid-row: 4;
     grid-column: 4;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg);
+    justify-content: center;
 }
 #produto04 {
     grid-row: 4;
     grid-column: 5;
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/categories/cat-2.jpg);
+    justify-content: center;
 }
 
 .diminua{
@@ -130,6 +138,11 @@ header{
     padding-left: 20px;
 }
 
+.icones2{
+    width: 35px;
+    padding-left: 20px;
+}
+
 #america{
     width: 30px;
     padding-right:10px;
@@ -141,7 +154,7 @@ header{
 }
 
 #fruitverde{
-    color: rgb(70, 138, 25);
+    color: #7fad39;
 }
 
 #lead{
@@ -153,13 +166,42 @@ header{
 }
 
 #verde{
-    background-color: rgb(79, 151, 57);
+    background-color: #7fad39;
     height: 50px;
     width: 100%;
     display: flex;
     align-items: center;
+    color: white;
 }
 
 li{
     list-style: none;
+}
+
+#menuesp li {
+    padding-top:20px;
+    padding-left:10%;
+    font-weight: 200;
+}
+
+#busca{
+    padding: 0% 20%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    border: lightgray;   
+}
+
+#cinza1{
+    color: lightgray;
+}
+
+#verde2{
+    height: 50px;
+    width: 100px;
+    background-color: #7fad39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
